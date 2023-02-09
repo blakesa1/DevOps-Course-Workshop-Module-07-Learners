@@ -1,0 +1,7 @@
+stages:
+  - test    # This pipeline consists of a single stage called "test"
+
+my-job:         # Start defining a job called "my-job"
+  stage: test   # This job belongs to the "test" stage
+  script:
+    - echo "Hello, world"  # Run a script
